@@ -1,9 +1,7 @@
-import Button from 'react-bootstrap/Button';
-import { Container, Row, Col, Card} from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
 import axios from 'axios';
 import Joke from '../components/Joke';
 import Topbar from '../components/Topbar';
-import NavBar from 'react-bootstrap/NavBar'
 import Pagination from "react-bootstrap-4-pagination"
 export async function getServerSideProps(context) {
   const config = {
